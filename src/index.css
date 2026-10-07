@@ -1,0 +1,162 @@
+@import "tailwindcss";
+
+:root {
+  /* Color Tokens */
+  --color-primary: #8F1717;
+  --color-secondary: #C9361A;
+  --color-saffron: #F28C28;
+  --color-orange: #E85D04;
+  --color-gold: #F4B942;
+  --color-gold-bright: #FFD166;
+  --color-cream: #FFF7E6;
+  --color-warm-white: #FFFDF8;
+  --color-dark-brown: #3B1712;
+}
+
+@theme {
+  --font-serif: 'Cinzel', 'Noto Serif Bengali', serif;
+  --font-display: 'Cormorant Garamond', 'Noto Serif Bengali', serif;
+  --font-sans: 'Plus Jakarta Sans', 'Noto Sans Bengali', sans-serif;
+  --font-bengali: 'Noto Sans Bengali', 'Noto Serif Bengali', sans-serif;
+
+  /* Custom Palette mapped to Tailwind utility tokens */
+  --color-divine-red: #8F1717;
+  --color-divine-crimson: #C9361A;
+  --color-divine-saffron: #F28C28;
+  --color-divine-orange: #E85D04;
+  --color-divine-gold: #F4B942;
+  --color-divine-gold-bright: #FFD166;
+  --color-divine-cream: #FFF7E6;
+  --color-divine-warmwhite: #FFFDF8;
+  --color-divine-brown: #3B1712;
+  --color-divine-brown-muted: #6B3E36;
+}
+
+/* Base Styles */
+@layer base {
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-dark-brown);
+    font-family: var(--font-sans);
+    touch-action: manipulation;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    color: var(--color-dark-brown);
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+}
+
+/* Custom Design System Utility Classes */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #FFD166 0%, #F4B942 50%, #C98816 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-divine-gradient {
+  background: linear-gradient(135deg, #8F1717 0%, #C9361A 40%, #F28C28 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-red-gradient {
+  background: linear-gradient(135deg, #8F1717 0%, #C9361A 60%, #6E1010 100%);
+}
+
+.bg-saffron-gradient {
+  background: linear-gradient(135deg, #F28C28 0%, #E85D04 70%, #C9361A 100%);
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #FFD166 0%, #F4B942 50%, #D49B24 100%);
+}
+
+.bg-cream-card {
+  background: linear-gradient(180deg, #FFFDF8 0%, #FFF7E6 100%);
+}
+
+/* Glass-like Overlays */
+.glass-card {
+  background: rgba(255, 253, 248, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(244, 185, 66, 0.35);
+}
+
+.glass-card-dark {
+  background: rgba(143, 23, 23, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 209, 102, 0.3);
+}
+
+/* Gold Border Accents */
+.border-gold-subtle {
+  border-color: rgba(244, 185, 66, 0.35);
+}
+
+.border-gold-medium {
+  border-color: rgba(244, 185, 66, 0.65);
+}
+
+/* Soft Shadows */
+.shadow-soft-gold {
+  box-shadow: 0 10px 30px -5px rgba(244, 185, 66, 0.18);
+}
+
+.shadow-soft-red {
+  box-shadow: 0 12px 35px -5px rgba(143, 23, 23, 0.15);
+}
+
+.shadow-premium-card {
+  box-shadow: 0 10px 25px -5px rgba(59, 23, 18, 0.06), 0 4px 10px -2px rgba(244, 185, 66, 0.08);
+}
+
+/* Astrology Subtle Radial Pattern */
+.bg-mandala-pattern {
+  background-image: radial-gradient(rgba(244, 185, 66, 0.14) 1px, transparent 1px), radial-gradient(rgba(143, 23, 23, 0.06) 1px, #FFF7E6 1px);
+  background-size: 36px 36px;
+  background-position: 0 0, 18px 18px;
+}
+
+.bg-zodiac-radial {
+  background: radial-gradient(circle at 50% 30%, rgba(242, 140, 40, 0.12) 0%, rgba(244, 185, 66, 0.05) 50%, transparent 80%);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFF7E6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #F4B942;
+  border-radius: 4.5px;
+  border: 2px solid #FFF7E6;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8F1717;
+}
+
+/* Accessibility: Prefers Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
