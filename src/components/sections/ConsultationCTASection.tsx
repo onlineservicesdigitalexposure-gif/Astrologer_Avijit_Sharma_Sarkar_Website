@@ -15,7 +15,7 @@ export const ConsultationCTASection: React.FC = () => {
         
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#F4B942]/20 border border-[#F4B942]/50 text-xs font-serif font-bold uppercase tracking-widest text-[#FFD166]">
           <Sparkles className="w-4 h-4 text-[#FFD166] animate-pulse" />
-          Direct Access to Avijit Sharma Sarkar
+          Direct Access to Avijit Sharma Ssarrkar
         </div>
 
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-serif leading-tight text-white max-w-3xl mx-auto">
@@ -23,7 +23,7 @@ export const ConsultationCTASection: React.FC = () => {
         </h2>
 
         <p className="text-base sm:text-lg text-[#FFFDF8]/90 max-w-2xl mx-auto font-sans leading-relaxed">
-          Get personalized astrology and spiritual guidance from Avijit Sharma Sarkar.
+          Get personalized astrology and spiritual guidance from Avijit Sharma Ssarrkar.
         </p>
 
         {/* Action Buttons */}

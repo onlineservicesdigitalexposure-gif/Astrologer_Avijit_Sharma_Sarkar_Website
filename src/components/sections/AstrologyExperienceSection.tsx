@@ -62,14 +62,18 @@ export const AstrologyExperienceSection: React.FC = () => {
                 Every individual carries a unique cosmic blueprint. Understanding your planetary periods unlocks divine timing for career decisions, marriage, health, and spiritual alignment.
               </p>
 
-              <div className="grid grid-cols-2 gap-3 text-xs pt-2">
-                <div className="p-3 bg-[#FFFDF8] rounded-xl border border-[#F4B942]/40 text-[#8F1717] font-serif font-bold">
-                  <Moon className="w-4 h-4 text-[#F28C28] mx-auto mb-1" />
-                  Janma Rashi Insight
+              <div className="grid grid-cols-3 gap-2 text-xs pt-2">
+                <div className="p-2.5 bg-[#FFFDF8] rounded-xl border border-[#F4B942]/40 text-[#8F1717] font-serif font-bold text-center">
+                  <Sparkles className="w-4 h-4 text-[#F28C28] mx-auto mb-1" />
+                  <span className="block text-[11px] leading-tight">KP Sub-Lord System</span>
                 </div>
-                <div className="p-3 bg-[#FFFDF8] rounded-xl border border-[#F4B942]/40 text-[#8F1717] font-serif font-bold">
+                <div className="p-2.5 bg-[#FFFDF8] rounded-xl border border-[#F4B942]/40 text-[#8F1717] font-serif font-bold text-center">
+                  <Moon className="w-4 h-4 text-[#F28C28] mx-auto mb-1" />
+                  <span className="block text-[11px] leading-tight">Janma Rashi & Dasha</span>
+                </div>
+                <div className="p-2.5 bg-[#FFFDF8] rounded-xl border border-[#F4B942]/40 text-[#8F1717] font-serif font-bold text-center">
                   <Compass className="w-4 h-4 text-[#F28C28] mx-auto mb-1" />
-                  Divisional Charts D9/D10
+                  <span className="block text-[11px] leading-tight">D9/D10 Charts</span>
                 </div>
               </div>
 
@@ -84,9 +88,9 @@ export const AstrologyExperienceSection: React.FC = () => {
             viewport={{ once: true }}
             className="lg:col-span-7 space-y-6 text-[#3B1712]"
           >
-            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#F4B942]/20 border border-[#F4B942]/40 text-xs font-serif font-bold uppercase tracking-wider text-[#8F1717]">
-              <Sparkles className="w-3.5 h-3.5 text-[#F4B942]" />
-              Astrological Alignment
+            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#8F1717] border border-[#F4B942] text-xs font-serif font-bold uppercase tracking-wider text-[#FFD166] shadow-xs">
+              <Sparkles className="w-3.5 h-3.5 text-[#FFD166] animate-pulse" />
+              KP ASTROLOGER & STELLAR ALIGNMENT
             </div>
 
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-serif text-[#8F1717] leading-tight">
@@ -94,7 +98,7 @@ export const AstrologyExperienceSection: React.FC = () => {
             </h2>
 
             <p className="text-base leading-relaxed text-[#3B1712]/90 font-sans">
-              Astrology is not about fatalistic prediction; it is an ancient science of self-awareness and cosmic timing. By mapping your precise birth chart coordinates, Avijit Sharma Sarkar identifies the exact planetary dashas influencing your present challenges.
+              Astrology is not about fatalistic prediction; it is an ancient science of self-awareness and cosmic timing. As a certified <strong>KP Astrologer</strong>, Avijit Sharma Ssarrkar applies the celebrated Krishnamurti Padhdhati stellar sub-lord system and divisional calculations to identify the exact planetary influences and timeline transitions affecting your present situation.
             </p>
 
             <p className="text-base leading-relaxed text-[#3B1712]/90 font-sans">

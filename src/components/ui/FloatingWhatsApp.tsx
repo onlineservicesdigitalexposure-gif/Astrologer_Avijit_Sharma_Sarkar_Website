@@ -7,7 +7,7 @@ export const FloatingWhatsApp: React.FC = () => {
 
   const phone = '918981091491';
   const message = encodeURIComponent(
-    'Hello Avijit Sharma Sarkar, I would like to know more about your astrology consultation services.'
+    'Hello Avijit Sharma Ssarrkar, I would like to know more about your astrology consultation services.'
   );
   const whatsappUrl = `https://wa.me/${phone}?text=${message}`;
 
@@ -47,7 +47,7 @@ export const FloatingWhatsApp: React.FC = () => {
           delay: 0.5,
         }}
         className="relative group bg-gradient-to-tr from-[#1EBE5D] to-[#25D366] text-white p-3.5 sm:p-4 rounded-full shadow-2xl flex items-center justify-center border-2 border-[#FFD166] transition-shadow duration-300 hover:shadow-[#25D366]/40 hover:shadow-xl"
-        aria-label="Direct WhatsApp Consultation with Avijit Sharma Sarkar"
+        aria-label="Direct WhatsApp Consultation with Avijit Sharma Ssarrkar"
       >
         {/* Subtle Ring Glow Effect */}
         <span className="absolute -inset-1 rounded-full bg-[#25D366]/30 group-hover:bg-[#25D366]/50 blur-md transition-all duration-300 -z-10"></span>

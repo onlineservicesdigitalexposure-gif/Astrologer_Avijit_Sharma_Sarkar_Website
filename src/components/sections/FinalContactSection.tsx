@@ -35,7 +35,7 @@ export const FinalContactSection: React.FC = () => {
               className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-[#FFFDF8]/10 hover:bg-[#FFFDF8]/20 border border-[#F4B942]/40 text-[#FFD166] transition-colors"
             >
               <Mail className="w-4 h-4 text-[#F4B942]" />
-              <span className="font-semibold text-sm">sharmasarkaravijit@gmail.com</span>
+              <span className="font-semibold text-sm">sharmaSsarrkaravijit@gmail.com</span>
             </a>
 
             <a

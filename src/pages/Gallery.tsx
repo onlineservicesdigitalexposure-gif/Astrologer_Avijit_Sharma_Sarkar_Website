@@ -9,8 +9,8 @@ export const Gallery: React.FC = () => {
   return (
     <>
       <SEO
-        title="Astrology Gallery | R.A. Divine Astrology"
-        description="View gallery photos of R.A. Divine Astrology, spiritual events, certificates, and consultations by Avijit Sharma Sarkar in Serampore."
+        title="Sanctuary Gallery & KP Certification | R.A. Divine Astrology"
+        description="View gallery photos, official KP Astrology certifications, Bagalamukhi Havans, and sanctuary consultations by Avijit Sharma Ssarrkar in Serampore."
         canonicalPath="/gallery"
       />
 

@@ -49,7 +49,7 @@ export const Contact: React.FC = () => {
     }
 
     // Build properly URL-encoded WhatsApp text message
-    const formattedText = `Hello Guruji Avijit Sharma Sarkar,\n\nI would like to enquire for a consultation at R.A. Divine Astrology.\n\n*Name:* ${formData.name}\n*Phone:* ${formData.phone}\n*Email:* ${formData.email || 'N/A'}\n*Service Requested:* ${formData.service}\n*Preferred Contact:* ${formData.contactMethod}\n*Message / Query:* ${formData.message || 'N/A'}`;
+    const formattedText = `Hello Guruji Avijit Sharma Ssarrkar,\n\nI would like to enquire for a consultation at R.A. Divine Astrology.\n\n*Name:* ${formData.name}\n*Phone:* ${formData.phone}\n*Email:* ${formData.email || 'N/A'}\n*Service Requested:* ${formData.service}\n*Preferred Contact:* ${formData.contactMethod}\n*Message / Query:* ${formData.message || 'N/A'}`;
     
     const url = `https://wa.me/918981091491?text=${encodeURIComponent(formattedText)}`;
     setWhatsappRedirectUrl(url);
@@ -62,8 +62,8 @@ export const Contact: React.FC = () => {
   return (
     <>
       <SEO
-        title="Contact R.A. Divine Astrology | Serampore, Hooghly"
-        description="Get in touch with R.A. Divine Astrology and Avijit Sharma Sarkar in Serampore, Hooghly, West Bengal. Call +91 8981091491 or WhatsApp for consultation."
+        title="Contact KP Astrologer Avijit Sharma Ssarrkar | R.A. Divine Astrology"
+        description="Connect with certified KP Astrologer Avijit Sharma Ssarrkar at R.A. Divine Astrology in Serampore, Hooghly, West Bengal. Call +91 8981091491 or WhatsApp for consultation."
         canonicalPath="/contact"
       />
 
@@ -264,7 +264,7 @@ export const Contact: React.FC = () => {
                       Enquiry Generated Successfully!
                     </h3>
                     <p className="text-xs sm:text-sm text-[#3B1712] max-w-md mx-auto leading-relaxed font-sans">
-                      Thank you, <strong>{formData.name}</strong>. If WhatsApp did not open automatically, click the button below to send your pre-filled details directly to Guruji Avijit Sharma Sarkar.
+                      Thank you, <strong>{formData.name}</strong>. If WhatsApp did not open automatically, click the button below to send your pre-filled details directly to Guruji Avijit Sharma Ssarrkar.
                     </p>
 
                     <div className="pt-3 flex flex-col sm:flex-row justify-center gap-3">
@@ -338,7 +338,7 @@ export const Contact: React.FC = () => {
                           name="email"
                           value={formData.email}
                           onChange={handleChange}
-                          placeholder="sharmasarkaravijit@gmail.com"
+                          placeholder="sharmaSsarrkaravijit@gmail.com"
                           className="w-full px-3.5 py-2.5 text-base sm:text-sm bg-white border border-[#F4B942]/50 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#F4B942] text-[#3B1712]"
                         />
                       </div>

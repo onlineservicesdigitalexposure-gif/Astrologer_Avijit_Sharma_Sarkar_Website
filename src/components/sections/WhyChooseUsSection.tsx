@@ -9,7 +9,7 @@ const REASONS = [
   {
     icon: <UserCheck className="w-7 h-7 text-[#F28C28]" />,
     title: "Personalized Consultation",
-    description: "Every birth chart is individually calculated by Avijit Sharma Sarkar to address your specific life situation."
+    description: "Every birth chart is individually calculated by Avijit Sharma Ssarrkar to address your specific life situation."
   },
   {
     icon: <ShieldCheck className="w-7 h-7 text-[#F28C28]" />,

@@ -29,15 +29,16 @@ export const SITE_CONFIG = {
   name: "R.A. DIVINE ASTROLOGY",
   tagline: "Divine Guidance for Clarity, Peace & a Better Tomorrow",
   astrologer: {
-    name: "Avijit Sharma Sarkar",
-    title: "Bagalamukhi Sadhak | Astro Spiritual Advisor",
+    name: "Avijit Sharma Ssarrkar",
+    title: "Bagalamukhi Sadhak | KP Astrologer | Astro Spiritual Advisor",
     experienceYears: "18+",
     consultationsCompleted: "25,000+",
-    bioShort: "Bagalamukhi Sadhak and Astro Spiritual Advisor offering personalized astrology and spiritual guidance.",
-    bioFull: `Avijit Sharma Sarkar is a Bagalamukhi Sadhak and Astro Spiritual Advisor with over 18 years of dedicated practice in Vedic Astrology, Tantric spiritual remedies, Gemology, and Vastu Shastra.
+    bioShort: "Certified KP Astrologer, Bagalamukhi Sadhak, and Astro Spiritual Advisor offering personalized astrology and spiritual guidance.",
+    bioFull: `Avijit Sharma Ssarrkar is a certified KP Astrologer, Bagalamukhi Sadhak, and Astro Spiritual Advisor with over 18 years of dedicated practice in Krishnamurti Padhdhati (KP Astrology), Vedic Astrology, Tantric spiritual remedies, Gemology, and Vastu Shastra.
 
-Deeply grounded in sacred traditions, his consultations blend precise birth chart calculations with compassionate spiritual insights to help seekers find clarity, inner peace, and direction in life.`,
+Deeply grounded in sacred traditions and stellar calculations, his consultations blend precise KP Sub-Lord analysis with compassionate spiritual insights to help seekers find clarity, inner peace, and direction in life.`,
     specializations: [
+      "KP Astrology (Krishnamurti Padhdhati) & Stellar Predictions",
       "Maa Bagalamukhi Ritual & Mantra Guidance",
       "Vedic Birth Chart & Planetary Dasha Analysis",
       "Vastu Shastra for Home & Business",
@@ -46,6 +47,7 @@ Deeply grounded in sacred traditions, his consultations blend precise birth char
       "Career & Financial Consultation"
     ],
     achievements: [
+      "Certified KP Astrologer (Krishnamurti Padhdhati Stellar Astrology)",
       "Revered Bagalamukhi Sadhak with Siddha Diksha",
       "Awarded Gold Medalist in Vedic Jyotish & Karmakanda",
       "Trusted Spiritual Advisor across India & Worldwide",
@@ -56,7 +58,7 @@ Deeply grounded in sacred traditions, his consultations blend precise birth char
     phone: "8981091491",
     formattedPhone: "8981091491",
     whatsapp: "+91 89810 91491",
-    email: "sharmasarkaravijit@gmail.com",
+    email: "sharmaSsarrkaravijit@gmail.com",
     address: "52 Raja Rammohan Roy Sarani, Serampore, Hooghly, West Bengal - 712203",
     landmark: "Opposite Apollo Pharmacy, Serampore Station",
     city: "Serampore",
@@ -76,7 +78,7 @@ Deeply grounded in sacred traditions, his consultations blend precise birth char
   ] as NavItem[],
   socialLinks: {
     whatsapp: "https://wa.me/918981091491",
-    facebook: "https://www.facebook.com/avijit.sharmasarkar.7",
+    facebook: "https://www.facebook.com/avijit.sharmaSsarrkar.7",
     instagram: "https://www.instagram.com/avijitshramassarrkar/",
     youtube: "https://youtube.com"
   }
@@ -114,7 +116,7 @@ export const FAQS: FAQItem[] = [
   {
     category: "Consultation",
     question: "Can I take an online video/phone consultation if I live far away?",
-    answer: "Yes. Avijit Sharma Sarkar conducts high-definition video and audio consultations worldwide via WhatsApp/Zoom. Exact birth details (Date, Time, and City of birth) are analyzed prior to the call."
+    answer: "Yes. Avijit Sharma Ssarrkar conducts high-definition video and audio consultations worldwide via WhatsApp/Zoom. Exact birth details (Date, Time, and City of birth) are analyzed prior to the call."
   },
   {
     category: "Details Required",
@@ -139,7 +141,7 @@ export const TESTIMONIALS: Testimonial[] = [
     name: "Rajesh Kumar Singhania",
     location: "Serampore, WB",
     service: "Career & Business Consultation",
-    quote: "Avijit Sharma Sarkar's Bagalamukhi guidance gave me immense clarity during a multi-year business deadlock. His calm demeanor and planetary insight provided real direction.",
+    quote: "Avijit Sharma Ssarrkar's Bagalamukhi guidance gave me immense clarity during a multi-year business deadlock. His calm demeanor and planetary insight provided real direction.",
     rating: 5,
     date: "February 2026"
   },

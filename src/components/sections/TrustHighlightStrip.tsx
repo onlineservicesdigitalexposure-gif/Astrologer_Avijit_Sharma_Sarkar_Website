@@ -21,8 +21,8 @@ const HIGHLIGHTS = [
   },
   {
     icon: <Sparkles className="w-6 h-6 text-[#F28C28]" />,
-    title: "Spiritual & Astrology Guidance",
-    subtitle: "Authentic Vedic Wisdom"
+    title: "KP Astrologer & Jyotish",
+    subtitle: "Stellar Predictions & Vedic Remedies"
   }
 ];
 

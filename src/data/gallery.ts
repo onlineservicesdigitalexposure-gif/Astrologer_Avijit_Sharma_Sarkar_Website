@@ -12,9 +12,9 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   // Authentic Local Gallery Images from public/image/Gallery/
   {
     id: "g1",
-    title: "Shri Avijit Sharma Sarkar in Dhyana Yoga Meditation",
+    title: "Shri Avijit Sharma Ssarrkar in Dhyana Yoga Meditation",
     category: "Spiritual",
-    description: "Deep Dhyana meditation session performed by Shri Avijit Sharma Sarkar in red pitambari robes before the sacred garlanded Shiva Lingam at the sanctuary.",
+    description: "Deep Dhyana meditation session performed by Shri Avijit Sharma Ssarrkar in red pitambari robes before the sacred garlanded Shiva Lingam at the sanctuary.",
     image: "/image/Gallery/image1.jpeg",
     location: "Sanctuary Mandir",
     aspectRatio: "square"
@@ -48,9 +48,9 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: "g5",
-    title: "Bagalamukhi Sadhak Shri Avijit Sharma Sarkar in Yajna",
+    title: "Bagalamukhi Sadhak Shri Avijit Sharma Ssarrkar in Yajna",
     category: "Spiritual",
-    description: "Shri Avijit Sharma Sarkar in traditional saffron pitambari offering prayerful Ahuti into the sacred Mahavidya Yajna fire.",
+    description: "Shri Avijit Sharma Ssarrkar in traditional saffron pitambari offering prayerful Ahuti into the sacred Mahavidya Yajna fire.",
     image: "/image/Gallery/image5.jpeg",
     location: "Sanctuary Shrine",
     aspectRatio: "landscape"
@@ -75,7 +75,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: "g8",
-    title: "Shri Avijit Sharma Sarkar in Open-Air Mahayajna",
+    title: "Shri Avijit Sharma Ssarrkar in Open-Air Mahayajna",
     category: "Events",
     description: "Guruji seated in traditional yellow pitambari silk holding sacred copper Arghya vessels during a grand outdoor Vedic ritual.",
     image: "/image/Gallery/image8.jpeg",
@@ -86,7 +86,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: "g9",
     title: "Sacred Scripture Mantra Recitation & Ahuti",
     category: "Spiritual",
-    description: "Shri Avijit Sharma Sarkar chanting Vedic Sooktams from sacred texts while offering herbal samagri into the burning Havan Kund.",
+    description: "Shri Avijit Sharma Ssarrkar chanting Vedic Sooktams from sacred texts while offering herbal samagri into the burning Havan Kund.",
     image: "/image/Gallery/image9.jpeg",
     location: "Private Sadhana Chamber",
     aspectRatio: "portrait"
@@ -104,7 +104,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: "g11",
     title: "Divine Guru Blessings & Spiritual Recognition",
     category: "Events",
-    description: "Shri Avijit Sharma Sarkar being honored and blessed on stage by revered Jagadguru spiritual leaders during a state Vedic convention.",
+    description: "Shri Avijit Sharma Ssarrkar being honored and blessed on stage by revered Jagadguru spiritual leaders during a state Vedic convention.",
     image: "/image/Gallery/image11.jpeg",
     location: "Grand Spiritual Conference",
     aspectRatio: "landscape"
@@ -113,7 +113,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: "g12",
     title: "Midnight Tantric Sadhana & Group Havan",
     category: "Events",
-    description: "Shri Avijit Sharma Sarkar in Namaskar prayer during a solemn night-long Bagalamukhi Sadhana session with senior Pujaris.",
+    description: "Shri Avijit Sharma Ssarrkar in Namaskar prayer during a solemn night-long Bagalamukhi Sadhana session with senior Pujaris.",
     image: "/image/Gallery/image12.jpeg",
     location: "Midnight Sadhana Pandal",
     aspectRatio: "portrait"
@@ -140,7 +140,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: "g16",
     title: "Sanctuary Festival Puja & Maha Havan Setup",
     category: "Events",
-    description: "Wide sanctuary view showing Shri Avijit Sharma Sarkar conducting Mahaviddya Havan amidst festive lighting and elaborate fruit and sweet offerings.",
+    description: "Wide sanctuary view showing Shri Avijit Sharma Ssarrkar conducting Mahaviddya Havan amidst festive lighting and elaborate fruit and sweet offerings.",
     image: "/image/Gallery/image16.jpeg",
     location: "Sanctuary Prayer Hall",
     aspectRatio: "landscape"
@@ -158,7 +158,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: "g18",
     title: "Digital Horoscope Analysis & Desk Consultation",
     category: "Consultation",
-    description: "Shri Avijit Sharma Sarkar evaluating birth charts, planetary dashas, and Kundli calculations on laptop at his Serampore consultation desk.",
+    description: "Shri Avijit Sharma Ssarrkar evaluating birth charts, planetary dashas, and Kundli calculations on laptop at his Serampore consultation desk.",
     image: "/image/Gallery/image18.jpeg",
     location: "Serampore Consultation Office",
     aspectRatio: "portrait"
@@ -185,7 +185,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: "g21",
     title: "Temple Pilgrimage & Sacred Teertha Visit",
     category: "Spiritual",
-    description: "Shri Avijit Sharma Sarkar visiting a sacred temple shrine compound during a holy pilgrimage trip across West Bengal.",
+    description: "Shri Avijit Sharma Ssarrkar visiting a sacred temple shrine compound during a holy pilgrimage trip across West Bengal.",
     image: "/image/Gallery/image21.jpeg",
     location: "Temple Pilgrimage Complex",
     aspectRatio: "portrait"
@@ -212,7 +212,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: "g24",
     title: "Gaumukhi Japa Mala Mantra Meditation",
     category: "Spiritual",
-    description: "Shri Avijit Sharma Sarkar engaged in confidential rosary Japa meditation using the sacred Gaumukhi cloth bag in the temple.",
+    description: "Shri Avijit Sharma Ssarrkar engaged in confidential rosary Japa meditation using the sacred Gaumukhi cloth bag in the temple.",
     image: "/image/Gallery/image24.jpeg",
     location: "Inner Mandir Shrine",
     aspectRatio: "portrait"
@@ -221,7 +221,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: "g25",
     title: "Reverent Pranam at Lotus Shrine Altar",
     category: "Spiritual",
-    description: "Shri Avijit Sharma Sarkar in red robes offering humble Pranam prayers at the lotus-decorated sanctuary altar.",
+    description: "Shri Avijit Sharma Ssarrkar in red robes offering humble Pranam prayers at the lotus-decorated sanctuary altar.",
     image: "/image/Gallery/image25.jpeg",
     location: "Sanctuary Altar",
     aspectRatio: "portrait"
@@ -230,7 +230,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: "g26",
     title: "Holy River Bank Teertha Kshetra Visit",
     category: "Spiritual",
-    description: "Shri Avijit Sharma Sarkar on the banks of a holy river during sacred rituals and spiritual reflection.",
+    description: "Shri Avijit Sharma Ssarrkar on the banks of a holy river during sacred rituals and spiritual reflection.",
     image: "/image/Gallery/image26.jpeg",
     location: "River Teertha Kshetra",
     aspectRatio: "square"
@@ -293,7 +293,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: "g33",
     title: "Energetic Beej Mantra Recitation & High Fire",
     category: "Spiritual",
-    description: "Intense Beej Mantra chanting with hand mudras performed by Shri Avijit Sharma Sarkar before rising Yajna flames.",
+    description: "Intense Beej Mantra chanting with hand mudras performed by Shri Avijit Sharma Ssarrkar before rising Yajna flames.",
     image: "/image/Gallery/image33.jpeg",
     location: "Sanctuary Shrine",
     aspectRatio: "landscape"
@@ -369,7 +369,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: "b1",
     title: "Official Sanctuary Poster & Council Credentials",
     category: "Promotional",
-    description: "Official sanctuary poster displaying Bagalamukhi Sadhak Shri Avijit Sharma Sarkar, Maa Bagalamukhi, and Astro Council registration details.",
+    description: "Official sanctuary poster displaying Bagalamukhi Sadhak Shri Avijit Sharma Ssarrkar, Maa Bagalamukhi, and Astro Council registration details.",
     image: "/image/Banner/Banner1.jpeg",
     location: "Sanctuary Poster",
     aspectRatio: "portrait"
@@ -387,7 +387,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: "b3",
     title: "Astro Council of West Bengal Official Identity Pass",
     category: "Promotional",
-    description: "Official registration card (Reg No: WBAXXVI-S0000115) from Astrology & Astrologers Welfare Association appointing Shri Avijit Sharma Sarkar as Asst. Treasurer.",
+    description: "Official registration card (Reg No: WBAXXVI-S0000115) from Astrology & Astrologers Welfare Association appointing Shri Avijit Sharma Ssarrkar as Asst. Treasurer.",
     image: "/image/Banner/Banner3.jpeg",
     location: "Official Registration",
     aspectRatio: "portrait"

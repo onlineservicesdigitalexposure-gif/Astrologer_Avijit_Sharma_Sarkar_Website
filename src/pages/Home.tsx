@@ -15,8 +15,8 @@ export const Home: React.FC = () => {
   return (
     <>
       <SEO
-        title="R.A. Divine Astrology | Avijit Sharma Sarkar | Astrology & Spiritual Guidance"
-        description="R.A. Divine Astrology by Avijit Sharma Sarkar offers personalized astrology and spiritual guidance in Serampore, Hooghly, West Bengal."
+        title="R.A. Divine Astrology | Avijit Sharma Ssarrkar - KP Astrologer & Bagalamukhi Sadhak"
+        description="R.A. Divine Astrology by Avijit Sharma Ssarrkar - Certified KP Astrologer, Bagalamukhi Sadhak, and Astro Spiritual Advisor in Serampore, Hooghly, West Bengal."
         canonicalPath="/"
       />
       

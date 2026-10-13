@@ -15,8 +15,8 @@ export const About: React.FC = () => {
   return (
     <>
       <SEO
-        title="About Avijit Sharma Sarkar | R.A. Divine Astrology"
-        description="Learn about Avijit Sharma Sarkar, Bagalamukhi Sadhak and Astro Spiritual Advisor offering personalized astrology and spiritual guidance."
+        title="About Avijit Sharma Ssarrkar | KP Astrologer | R.A. Divine Astrology"
+        description="Learn about Avijit Sharma Ssarrkar, certified KP Astrologer, Bagalamukhi Sadhak and Astro Spiritual Advisor offering personalized astrology and spiritual guidance."
         canonicalPath="/about"
       />
 
@@ -69,7 +69,7 @@ export const About: React.FC = () => {
                   <div className="relative mx-auto w-full max-w-[300px] sm:max-w-[360px] aspect-[4/3] rounded-2xl overflow-hidden border-4 border-[#F4B942] shadow-soft-red bg-[#8F1717]/10 p-1 bg-gradient-to-b from-[#8F1717] to-[#3B1712]">
                     <img
                       src="/image/Gallery/image5.jpeg"
-                      alt="Avijit Sharma Sarkar - Bagalamukhi Sadhak & Astro Advisor"
+                      alt="Avijit Sharma Ssarrkar - Bagalamukhi Sadhak & Astro Advisor"
                       loading="eager"
                       fetchPriority="high"
                       width="360"
@@ -79,7 +79,10 @@ export const About: React.FC = () => {
                     <div className="absolute inset-0 rounded-xl bg-gradient-to-t from-[#3B1712]/40 via-transparent to-transparent pointer-events-none" />
                   </div>
 
-                  <div className="space-y-1">
+                  <div className="space-y-1.5">
+                    <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-[#8F1717] text-[#FFD166] text-[10px] font-serif font-extrabold tracking-widest border border-[#F4B942] shadow-xs">
+                      <span>KP ASTROLOGER</span>
+                    </div>
                     <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#8F1717]">
                       {SITE_CONFIG.astrologer.name}
                     </h2>
@@ -117,15 +120,15 @@ export const About: React.FC = () => {
               </span>
 
               <h2 className="text-3xl sm:text-4xl font-extrabold font-serif text-[#8F1717] leading-tight">
-                Authentic Astrology & Dedicated Spiritual Guidance
+                KP Astrologer & Dedicated Spiritual Guide
               </h2>
 
               <p className="text-base sm:text-lg leading-relaxed text-[#3B1712]/90 font-sans">
-                Avijit Sharma Sarkar is a Bagalamukhi Sadhak and Astro Spiritual Advisor offering personalized astrology and spiritual guidance. With over 18 years of continuous study and practice in classical Vedic Astrology, Tantric discipline, Gemology, and Vastu Shastra, he provides seekers with a tranquil space to understand life's unfolding patterns.
+                Avijit Sharma Ssarrkar is a certified <strong>KP Astrologer</strong>, Bagalamukhi Sadhak, and Astro Spiritual Advisor offering personalized astrology and spiritual guidance. With over 18 years of continuous study and practice in Krishnamurti Padhdhati (KP System), classical Vedic Astrology, Tantric discipline, Gemology, and Vastu Shastra, he provides seekers with a tranquil space to understand life's unfolding patterns.
               </p>
 
               <p className="text-base leading-relaxed text-[#3B1712]/90 font-sans">
-                His consultation methodology combines a traditional approach to birth chart calculations with a strictly confidential interaction. Every session is designed to offer realistic perspective and practical mantras or consecrated remedies without making guaranteed claims about supernatural results.
+                His consultation methodology combines the precision of Krishnamurti Padhdhati (KP) stellar sub-lord calculations with traditional Parasari birth chart analysis and a strictly confidential interaction. Every session is designed to offer realistic perspective and practical mantras or consecrated remedies without making guaranteed claims about supernatural results.
               </p>
 
               {/* Core Attributes Badge Row */}
@@ -192,10 +195,10 @@ export const About: React.FC = () => {
                   <Compass className="w-8 h-8 text-[#F28C28]" />
                 </div>
                 <h3 className="font-serif text-xl font-bold text-[#8F1717]">
-                  Astrological Insight
+                  KP & Vedic Insight
                 </h3>
                 <p className="text-xs sm:text-sm text-[#3B1712]/85 leading-relaxed font-sans">
-                  Rigorous calculation of natal horoscope charts (Janma Patrika), Vimshottari Mahadasha timelines, divisional charts, and planetary transits to identify root causes of life stagnation.
+                  Rigorous calculation of Krishnamurti Padhdhati (KP) Stellar Sub-Lords, natal horoscope charts (Janma Patrika), Vimshottari Mahadasha timelines, divisional charts, and planetary transits to identify root causes and precise timing of life events.
                 </p>
               </Card>
             </motion.div>
@@ -329,7 +332,7 @@ export const About: React.FC = () => {
 
               <div className="space-y-4 text-base text-[#3B1712]/90 leading-relaxed font-sans">
                 <p>
-                  <strong>R.A. Divine Astrology was established in 2026</strong> as a dedicated sanctuary for authentic Vedic astrology and spiritual consulting. Founded by Avijit Sharma Sarkar, the practice was born out of a profound commitment to restore ethical, transparent, and scriptural guidance in astrological consultations.
+                  <strong>R.A. Divine Astrology was established in 2026</strong> as a dedicated sanctuary for authentic Vedic astrology and spiritual consulting. Founded by Avijit Sharma Ssarrkar, the practice was born out of a profound commitment to restore ethical, transparent, and scriptural guidance in astrological consultations.
                 </p>
 
                 <p>
@@ -342,6 +345,9 @@ export const About: React.FC = () => {
               </div>
 
               <div className="pt-2 flex flex-wrap items-center gap-3 text-xs font-serif font-bold text-[#8F1717]">
+                <div className="px-3.5 py-1.5 rounded-xl bg-[#8F1717] text-[#FFD166] border border-[#F4B942] shadow-xs">
+                  Certified KP Astrologer (KP Basic Vidyanidhi)
+                </div>
                 <div className="px-3.5 py-1.5 rounded-xl bg-[#FFF7E6] border border-[#F4B942]/40">
                   Reg No: WBAXXVI-S0000115-09
                 </div>
@@ -374,7 +380,7 @@ export const About: React.FC = () => {
                   <div className="relative mx-auto w-full aspect-[3/4] max-h-[500px] rounded-xl overflow-hidden border-2 border-[#F4B942] shadow-soft-red bg-[#8F1717]/10 p-1 bg-gradient-to-b from-[#8F1717] to-[#3B1712]">
                     <img
                       src="/image/Banner/Banner1.jpeg"
-                      alt="R.A. Divine Astrology Official Sanctuary Banner - Avijit Sharma Sarkar"
+                      alt="R.A. Divine Astrology Official Sanctuary Banner - Avijit Sharma Ssarrkar"
                       loading="lazy"
                       className="w-full h-full object-contain rounded-lg hover:scale-105 transition-transform duration-500"
                     />
@@ -461,7 +467,7 @@ export const About: React.FC = () => {
             </h2>
 
             <p className="text-base sm:text-lg text-[#FFFDF8]/90 max-w-2xl mx-auto font-sans leading-relaxed">
-              Schedule your confidential session with Avijit Sharma Sarkar for personalized birth chart analysis and spiritual guidance.
+              Schedule your confidential session with Avijit Sharma Ssarrkar for personalized birth chart analysis and spiritual guidance.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">

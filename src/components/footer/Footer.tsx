@@ -53,6 +53,11 @@ export const Footer: React.FC = () => {
                 <p className="text-xs text-[#F28C28] uppercase tracking-wider font-semibold">
                   {SITE_CONFIG.astrologer.name}
                 </p>
+                <div className="pt-0.5">
+                  <span className="inline-flex items-center px-2 py-0.5 rounded bg-[#FFFDF8]/15 text-[#FFD166] text-[10px] font-serif font-extrabold tracking-wider border border-[#F4B942]/60">
+                    KP ASTROLOGER
+                  </span>
+                </div>
               </div>
             </div>
 
@@ -157,7 +162,7 @@ export const Footer: React.FC = () => {
               <a
                 href={`tel:${SITE_CONFIG.contact.phone}`}
                 className="flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-[#F4B942]/15 hover:bg-[#F4B942] text-[#FFD166] hover:text-[#3B1712] transition-colors border border-[#F4B942]/30 text-xs font-semibold"
-                aria-label="Call Avijit Sharma Sarkar"
+                aria-label="Call Avijit Sharma Ssarrkar"
               >
                 <Phone className="w-3.5 h-3.5" />
                 <span>Call</span>
@@ -225,8 +230,10 @@ export const Footer: React.FC = () => {
             </a>.
 
           </p>
-          <div className="flex items-center gap-3 text-[11px] text-[#F4B942]/90">
+          <div className="flex items-center gap-2.5 text-[11px] text-[#F4B942]/90 flex-wrap justify-center">
             <span>Bagalamukhi Sadhak</span>
+            <span>•</span>
+            <span className="text-[#FFD166] font-bold">KP Astrologer</span>
             <span>•</span>
             <span>Vedic Jyotish</span>
             <span>•</span>

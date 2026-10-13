@@ -17,8 +17,8 @@ export const AboutPreviewSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <SectionHeader
           badge="Spiritual Foundation"
-          title="Guidance Rooted in Astrology & Spiritual Wisdom"
-          subtitle="Combining Deep Tantric Sadhana with Precision Astronomical Calculations"
+          title="Guidance Rooted in KP Astrology & Spiritual Wisdom"
+          subtitle="Combining Deep Tantric Sadhana with Precision Krishnamurti Padhdhati (KP) Calculations"
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
@@ -37,15 +37,20 @@ export const AboutPreviewSection: React.FC = () => {
                 <div className="relative mx-auto w-36 h-36 rounded-2xl overflow-hidden border-2 border-[#F4B942] shadow-sm bg-[#8F1717]/10 p-0.5">
                   <img
                     src="/image/Gallery/image8.jpeg"
-                    alt="Avijit Sharma Sarkar - Bagalamukhi Sadhak"
+                    alt="Avijit Sharma Ssarrkar - Bagalamukhi Sadhak & KP Astrologer"
                     loading="lazy"
                     className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
                 <div>
-                  <span className="text-xs font-bold font-serif text-[#F28C28] uppercase tracking-widest block mb-1">
-                    Bagalamukhi Sadhak
-                  </span>
+                  <div className="flex items-center justify-center gap-1.5 mb-1.5">
+                    <span className="px-2.5 py-0.5 rounded-full bg-[#8F1717] text-[#FFD166] text-[10px] font-serif font-extrabold tracking-wider border border-[#F4B942]">
+                      KP ASTROLOGER
+                    </span>
+                    <span className="text-[11px] font-bold font-serif text-[#F28C28] uppercase tracking-wider">
+                      Bagalamukhi Sadhak
+                    </span>
+                  </div>
                   <h3 className="font-serif text-2xl font-bold text-[#8F1717]">
                     {SITE_CONFIG.astrologer.name}
                   </h3>
@@ -88,15 +93,15 @@ export const AboutPreviewSection: React.FC = () => {
             className="lg:col-span-7 space-y-6 text-[#3B1712]"
           >
             <h3 className="text-2xl sm:text-3xl font-serif font-bold text-[#8F1717] leading-snug">
-              Compassionate Spiritual Insight & Timeless Vedic Astrology
+              Compassionate Spiritual Insight & Timeless KP Stellar Astrology
             </h3>
 
             <p className="text-base leading-relaxed text-[#3B1712]/90 font-sans">
-              Avijit Sharma Sarkar is a Bagalamukhi Sadhak and Astro Spiritual Advisor offering personalized astrology and spiritual guidance. With over 18 years of dedicated practice in Vedic Astrology, Tantric remedies, Gemology, and Vastu Shastra, he helps seekers navigate life's complex transitions with clarity and peace.
+              Avijit Sharma Ssarrkar is a certified <strong>KP Astrologer</strong>, Bagalamukhi Sadhak, and Astro Spiritual Advisor offering personalized astrology and spiritual guidance. With over 18 years of dedicated practice in Krishnamurti Padhdhati (KP System), classical Vedic Astrology, Tantric remedies, Gemology, and Vastu Shastra, he helps seekers navigate life's complex transitions with clarity and peace.
             </p>
 
             <p className="text-base leading-relaxed text-[#3B1712]/90 font-sans">
-              Rooted in sacred traditions, every consultation provides an empathetic, confidential environment to analyze birth chart planetary dashas, identify underlying karmic patterns, and suggest actionable spiritual remedies tailored to your daily lifestyle.
+              Rooted in sacred traditions and precise stellar sub-lord calculations, every consultation provides an empathetic, confidential environment to analyze birth chart planetary dashas, identify underlying karmic patterns, and suggest actionable spiritual remedies tailored to your daily lifestyle.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">

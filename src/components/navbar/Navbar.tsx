@@ -40,7 +40,7 @@ export const Navbar: React.FC = () => {
           <div className="flex items-center gap-3 text-center sm:text-left">
             <span className="inline-flex items-center gap-1.5 font-medium">
               <Sparkles className="w-3.5 h-3.5 text-[#FFD166] animate-pulse" />
-              Shri Avijit Sharma Sarkar — Bagalamukhi Sadhak & Astro Advisor
+              Shri Avijit Sharma Ssarrkar — Bagalamukhi Sadhak & KP Astrologer
             </span>
             <span className="hidden md:inline text-[#F4B942]/50">|</span>
             <span className="hidden md:inline text-[#FFFDF8]/85 font-mono text-[11px]">
@@ -103,9 +103,14 @@ export const Navbar: React.FC = () => {
               <span className="font-serif text-base sm:text-lg lg:text-xl font-bold tracking-wider text-[#8F1717] group-hover:text-[#C9361A] transition-colors leading-tight">
                 {SITE_CONFIG.name}
               </span>
-              <span className="hidden sm:block text-[10px] sm:text-xs font-bold text-[#F28C28] uppercase tracking-widest font-serif">
-                {SITE_CONFIG.astrologer.name}
-              </span>
+              <div className="flex items-center gap-1.5">
+                <span className="hidden sm:block text-[10px] sm:text-xs font-bold text-[#F28C28] uppercase tracking-widest font-serif">
+                  {SITE_CONFIG.astrologer.name}
+                </span>
+                <span className="hidden sm:inline-flex items-center px-1.5 py-0.5 rounded bg-[#8F1717] text-[#FFD166] text-[9px] font-serif font-extrabold tracking-wider border border-[#F4B942]/60 shadow-xs">
+                  KP ASTROLOGER
+                </span>
+              </div>
             </div>
           </Link>
 
@@ -223,9 +228,14 @@ export const Navbar: React.FC = () => {
                     <span className="font-serif text-base font-bold text-[#8F1717] block leading-tight">
                       {SITE_CONFIG.name}
                     </span>
-                    <span className="text-[10px] font-bold text-[#F28C28] uppercase tracking-wider font-serif">
-                      {SITE_CONFIG.astrologer.name}
-                    </span>
+                    <div className="flex items-center gap-1.5 mt-0.5">
+                      <span className="text-[10px] font-bold text-[#F28C28] uppercase tracking-wider font-serif">
+                        {SITE_CONFIG.astrologer.name}
+                      </span>
+                      <span className="inline-flex items-center px-1.5 py-0.2 rounded bg-[#8F1717] text-[#FFD166] text-[8px] font-serif font-extrabold tracking-wider border border-[#F4B942]/60">
+                        KP ASTROLOGER
+                      </span>
+                    </div>
                   </div>
                 </div>
 

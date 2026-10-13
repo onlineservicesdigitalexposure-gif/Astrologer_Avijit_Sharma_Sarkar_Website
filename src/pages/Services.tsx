@@ -31,8 +31,8 @@ export const Services: React.FC = () => {
   return (
     <>
       <SEO
-        title="Astrology & Spiritual Services | R.A. Divine Astrology"
-        description="Explore astrology and spiritual guidance services by Avijit Sharma Sarkar including birth chart analysis, Vastu guidance, and relationship consulting."
+        title="KP Astrology & Spiritual Services | R.A. Divine Astrology"
+        description="Explore KP Astrology and spiritual guidance services by certified KP Astrologer Avijit Sharma Ssarrkar including stellar birth chart analysis, Vastu guidance, and relationship consulting."
         canonicalPath="/services"
       />
 
@@ -224,7 +224,7 @@ export const Services: React.FC = () => {
           <motion.div variants={scaleIn} initial="hidden" whileInView="visible" viewport={{ once: true }} className="space-y-6">
             <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#F4B942]/20 border border-[#F4B942]/50 text-xs font-serif font-bold uppercase tracking-widest text-[#FFD166]">
               <Sparkles className="w-4 h-4 text-[#FFD166] animate-pulse" />
-              Direct Access to Avijit Sharma Sarkar
+              Direct Access to Avijit Sharma Ssarrkar
             </span>
 
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-serif leading-tight text-white max-w-3xl mx-auto">
@@ -232,7 +232,7 @@ export const Services: React.FC = () => {
             </h2>
 
             <p className="text-base sm:text-lg text-[#FFFDF8]/90 max-w-2xl mx-auto font-sans leading-relaxed">
-              Book your 1-on-1 session with Avijit Sharma Sarkar today. Available at the Serampore sanctuary and via online video consultation.
+              Book your 1-on-1 session with Avijit Sharma Ssarrkar today. Available at the Serampore sanctuary and via online video consultation.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">

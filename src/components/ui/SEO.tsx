@@ -44,8 +44,8 @@ export const SEO: React.FC<SEOProps> = ({
     },
     founder: {
       '@type': 'Person',
-      name: 'Avijit Sharma Sarkar',
-      jobTitle: 'Bagalamukhi Sadhak | Astro Spiritual Advisor'
+      name: 'Avijit Sharma Ssarrkar',
+      jobTitle: 'Bagalamukhi Sadhak | KP Astrologer | Astro Spiritual Advisor'
     },
     description: description
   };

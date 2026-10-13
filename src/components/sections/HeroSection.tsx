@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { Calendar, MessageCircle, Phone, Star, ShieldCheck } from 'lucide-react';
+import { Calendar, MessageCircle, Phone, Star, ShieldCheck, Sparkles } from 'lucide-react';
 import { SITE_CONFIG } from '@/data/site';
 import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
@@ -21,7 +21,7 @@ export const HeroSection: React.FC = () => {
         <div className="relative mx-auto w-full max-w-[240px] xs:max-w-[280px] sm:max-w-[340px] aspect-square rounded-2xl overflow-hidden border-4 border-[#F4B942] shadow-soft-red bg-[#8F1717]/10 p-1 bg-gradient-to-b from-[#8F1717] to-[#3B1712]">
           <img
             src="/image/Gallery/image1.jpeg"
-            alt="Avijit Sharma Sarkar - Bagalamukhi Sadhak & Astro Advisor"
+            alt="Avijit Sharma Ssarrkar - Bagalamukhi Sadhak & KP Astrologer"
             loading="eager"
             fetchPriority="high"
             width="340"
@@ -31,7 +31,11 @@ export const HeroSection: React.FC = () => {
           <div className="absolute inset-0 rounded-xl bg-gradient-to-t from-[#3B1712]/40 via-transparent to-transparent pointer-events-none" />
         </div>
 
-        <div className="space-y-1">
+        <div className="space-y-1.5">
+          <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-[#8F1717] text-[#FFD166] text-[10px] font-serif font-extrabold tracking-widest border border-[#F4B942] shadow-xs">
+            <Sparkles className="w-3 h-3 text-[#FFD166]" />
+            <span>KP ASTROLOGER</span>
+          </div>
           <h3 className="font-serif text-xl sm:text-2xl font-bold text-[#8F1717]">
             {SITE_CONFIG.astrologer.name}
           </h3>
@@ -80,6 +84,10 @@ export const HeroSection: React.FC = () => {
           >
             {/* 1. Top Badges & Astrologer Designation */}
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2">
+              <span className="inline-flex items-center gap-1.5 px-3.5 py-1.5 text-xs sm:text-sm font-serif font-extrabold uppercase tracking-wider rounded-full bg-gradient-to-r from-[#8F1717] via-[#C9361A] to-[#8F1717] text-[#FFD166] border-2 border-[#F4B942] shadow-sm shadow-[#8F1717]/25 ring-2 ring-[#F4B942]/30">
+                <Sparkles className="w-3.5 h-3.5 text-[#FFD166] animate-pulse" />
+                <span>KP ASTROLOGER</span>
+              </span>
               <Badge variant="crimson" className="text-xs sm:text-sm py-1.5 px-4 shadow-sm">
                 Bagalamukhi Sadhak
               </Badge>
@@ -110,7 +118,7 @@ export const HeroSection: React.FC = () => {
 
             {/* 5. Description Paragraph */}
             <p className="text-sm sm:text-base text-[#3B1712]/85 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-sans">
-              Authentic Vedic horoscope analysis, consecrated gemstone recommendations, and sacred Bagalamukhi Tantric remedies tailored for your personal, career, and spiritual wellbeing.
+              Precision <strong>KP Astrology (Krishnamurti Padhdhati)</strong> stellar predictions, authentic Vedic horoscope analysis, consecrated gemstone recommendations, and sacred Bagalamukhi Tantric remedies tailored for your personal, career, and spiritual wellbeing.
             </p>
 
             {/* 6. Primary & Secondary Action CTAs */}

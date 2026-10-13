@@ -16,13 +16,14 @@ export interface ServiceItem {
 export const SERVICES: ServiceItem[] = [
   {
     id: "birth-chart-analysis",
-    title: "Birth Chart Analysis",
-    subtitle: "Janma Kundli Blueprint & Dasha Calculation",
+    title: "KP & Vedic Birth Chart Analysis",
+    subtitle: "KP Stellar Sub-Lord & Dasha Timing",
     category: "Astrology",
-    description: "In-depth analysis of natal horoscope charts, Vimshottari Mahadasha periods, and planetary placements to uncover your core life path.",
-    fullDetails: "Your birth chart (Janma Patrika) maps your exact planetary positions at birth. Avijit Sharma Sarkar evaluates planetary strengths, lordships, and dasha timelines to help you navigate upcoming life phases with confidence.",
+    description: "In-depth analysis of natal horoscope charts using Krishnamurti Padhdhati (KP Astrology) Sub-Lord system, Vimshottari Mahadasha periods, and planetary placements.",
+    fullDetails: "Your birth chart (Janma Patrika) maps your exact planetary positions at birth. As a certified KP Astrologer, Avijit Sharma Ssarrkar evaluates Nakshatra Sub-Lords, cuspal interlinks, and planetary dasha timelines to help you navigate upcoming life phases with confidence.",
     iconName: "Compass",
     highlights: [
+      "KP Astrology (Krishnamurti Padhdhati) Sub-Lord calculation",
       "Vimshottari Dasha timeline calculation",
       "Analysis of Lagna, Moon Sign, and planetary strengths",
       "Identification of favorable & challenging life phases",
@@ -89,7 +90,7 @@ export const SERVICES: ServiceItem[] = [
     subtitle: "Professional Elevation & Cosmic Timing",
     category: "Personal Consultation",
     description: "Strategic consultation for job transitions, business ventures, partnership dynamics, and favorable timing for career advancement.",
-    fullDetails: "By analyzing the 2nd, 6th, 9th, and 10th houses, Avijit Sharma Sarkar identifies optimal cosmic timing for career promotions, job changes, business expansions, and corporate decisions.",
+    fullDetails: "By analyzing the 2nd, 6th, 9th, and 10th houses, Avijit Sharma Ssarrkar identifies optimal cosmic timing for career promotions, job changes, business expansions, and corporate decisions.",
     iconName: "TrendingUp",
     highlights: [
       "Optimal timing for career moves or business launches",
@@ -204,7 +205,7 @@ export const SERVICES: ServiceItem[] = [
     subtitle: "Maa Bagalamukhi Sadhana & Protective Remedies",
     category: "Spiritual Guidance",
     description: "Specialized spiritual guidance rooted in Maa Bagalamukhi Mahavidya Sadhana for neutralizing negativity, court case stress, and obstacles.",
-    fullDetails: "As an initiated Bagalamukhi Sadhak, Avijit Sharma Sarkar provides traditional Bagalamukhi ritual remedies, Stambhana mantra guidance, and protective Yantra advice for individuals facing severe adversity.",
+    fullDetails: "As an initiated Bagalamukhi Sadhak, Avijit Sharma Ssarrkar provides traditional Bagalamukhi ritual remedies, Stambhana mantra guidance, and protective Yantra advice for individuals facing severe adversity.",
     iconName: "Flame",
     highlights: [
       "Maa Bagalamukhi Sadhana principles & mantras",
